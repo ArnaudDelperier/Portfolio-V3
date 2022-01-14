@@ -1,6 +1,7 @@
+import { Link } from "react-router-dom"
+
 import "./home.scss"
 import "animate.css"
-import { Link } from "react-router-dom"
 
 export default function Home() {
     return (
@@ -22,8 +23,8 @@ export default function Home() {
                 </div>
             </div>
             <div className="link__wrapper">
-                <Link className="link animate__animated animate__fadeIn" style={{animationDelay: "1.5s"}} to="about">A propos de moi</Link>
-                <Link className="link animate__animated animate__fadeIn" style={{animationDelay: "1.7s"}} to="projects">Mes projects</Link>
+                <Link className="link animate__animated animate__fadeIn" style={{animationDelay: "1.5s"}} to="about">A propos</Link>
+                <Link className="link animate__animated animate__fadeIn" style={{animationDelay: "1.7s"}} to="projects">Mes projets</Link>
                 <Link className="link animate__animated animate__fadeIn" style={{animationDelay: "1.8s"}} to="contact">Contactez moi</Link>
             </div>
 

@@ -1,13 +1,25 @@
+import { useState } from "react";
 import { Routes, Route } from "react-router-dom";
+
 import './app.scss';
-import Home from './components/home/Home'
+
+import Topbar from './components/topbar/Topbar';
+import Menu from './components/menu/Menu';
+import Home from './components/home/Home';
 import About from './components/about/About';
 import Contact from './components/contact/Contact';
 import Projects from './components/projects/Projects';
 
 function App() {
+
+  const [menuOpen, setMenuOpen] = useState(false)
+
   return (
     <div className="app">
+
+      <Topbar menuOpen={menuOpen} setMenuOpen={setMenuOpen} />
+      <Menu menuOpen={menuOpen} setMenuOpen={setMenuOpen} />
+
       <Routes>
         <Route path="/" element={<Home />}></Route>
         <Route path="/about" element={<About />}></Route>
