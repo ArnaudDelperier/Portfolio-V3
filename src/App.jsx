@@ -13,9 +13,15 @@ import Projects from './components/projects/Projects';
 function App() {
 
   const [menuOpen, setMenuOpen] = useState(false)
+  const backgroundItems = new Array(20).fill(0)
+  console.log(backgroundItems)
 
   return (
     <div className="app">
+
+    <ul className="background">
+      {backgroundItems.map(() => <li></li>)}
+    </ul>
 
       <Topbar menuOpen={menuOpen} setMenuOpen={setMenuOpen} />
       <Menu menuOpen={menuOpen} setMenuOpen={setMenuOpen} />

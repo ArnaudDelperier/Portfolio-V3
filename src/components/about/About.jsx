@@ -15,9 +15,9 @@ export default function About() {
                     <img className="animate__animated animate__fadeIn" style={{animationDelay: "0.2s"}} src={require("../../assets/photo.png")} alt="Arnaud Delperier" />
                 </div>
                 <div className="right">
-                        <p className="animate__animated animate__slideInRight" style={{animationDelay: "0.2s"}}>- Grand maître en JavaScript ceinture noir foncé 12ème Dan</p>
-                        <p className="animate__animated animate__slideInRight" style={{animationDelay: "0.4s"}}>- Expert en NodeJS, je donne des cours sur la Lune tous les 36 de chaque mois</p>
-                        <p className="animate__animated animate__slideInRight" style={{animationDelay: "0.6s"}}>- Je maîtrise bien évidemment tous les frameworks du monde (mais quand même un peu plus ReactJs)</p>
+                        <p className="animate__animated animate__slideInRight" style={{animationDelay: "0.2s"}}>- Grand maître en <em>JavaScript</em> ceinture noir foncé 12ème Dan</p>
+                        <p className="animate__animated animate__slideInRight" style={{animationDelay: "0.4s"}}>- Expert en <em>NodeJS</em>, je donne des cours sur la Lune tous les 36 de chaque mois</p>
+                        <p className="animate__animated animate__slideInRight" style={{animationDelay: "0.6s"}}>- Je maîtrise bien évidemment tous les frameworks du monde (mais quand même un peu plus <em>ReactJs</em>)</p>
                 </div>
             </div>
             <div className="bottom">
