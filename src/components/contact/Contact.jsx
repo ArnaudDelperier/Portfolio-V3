@@ -1,6 +1,7 @@
 import { useState } from "react"
 
 import "./contact.scss"
+import "animate.css"
 
 export default function Contact() {
     const [name, setName] = useState("");
@@ -87,8 +88,8 @@ export default function Contact() {
 
     return (
         <div className="contact" id="contact">            
-            <h2 className="title">Contact</h2>
-            <form className="contact-form">
+            <h2 className="title animate__animated animate__fadeIn">Contact</h2>
+            <form className="contact-form animate__animated animate__bounceIn">
                 <div className="form-content">
                     <input
                     type="text"
