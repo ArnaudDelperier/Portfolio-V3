@@ -17,8 +17,8 @@ export default function About() {
                 </div>
                 <div className="right">
                         <p className="animate__animated animate__slideInRight" style={{animationDelay: "0.2s"}}><Star className="star" /> Grand maître en <em>JavaScript</em> ceinture noir foncé 12ème dan</p>
-                        <p className="animate__animated animate__slideInRight" style={{animationDelay: "0.4s"}}><Star className="star" /> Expert en <em>NodeJS</em>, je donne des cours sur la Lune tous les 36 de chaque mois</p>
-                        <p className="animate__animated animate__slideInRight" style={{animationDelay: "0.6s"}}><Star className="star" /> Je maîtrise bien évidemment tous les frameworks du monde (mais quand même un peu plus <em>ReactJs</em>)</p>
+                        <p className="animate__animated animate__slideInRight" style={{animationDelay: "0.4s"}}><Star className="star" /> Expert en <em>NodeJs</em>, je donne des cours sur la Lune tous les 36 de chaque mois</p>
+                        <p className="animate__animated animate__slideInRight" style={{animationDelay: "0.6s"}}><Star className="star" /> Je maîtrise bien évidemment tous les frameworks du monde (mais quand même un peu plus <em>React</em>)</p>
                 </div>
             </div>
             <div className="bottom">
