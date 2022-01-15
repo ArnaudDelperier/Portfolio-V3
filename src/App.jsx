@@ -10,17 +10,19 @@ import About from './components/about/About';
 import Contact from './components/contact/Contact';
 import Projects from './components/projects/Projects';
 
+const backgroundItems = Array.from(Array(20).keys())
+console.log(backgroundItems)
+
+
 function App() {
 
   const [menuOpen, setMenuOpen] = useState(false)
-  const backgroundItems = new Array(20).fill(0)
-  console.log(backgroundItems)
 
   return (
     <div className="app">
 
     <ul className="background">
-      {backgroundItems.map(() => <li></li>)}
+      {backgroundItems.map((e) => <li key={e}></li>)}
     </ul>
 
       <Topbar menuOpen={menuOpen} setMenuOpen={setMenuOpen} />
