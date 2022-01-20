@@ -22,7 +22,7 @@ export default function About() {
                 </div>
             </div>
             <div className="bottom">
-                <Link className="link animate__animated animate__fadeIn" to={"projects"} style={{animationDelay: "0.4s"}}>
+                <Link className="link animate__animated animate__fadeIn" to={"../projects"} style={{animationDelay: "0.4s"}}>
                     Voir mes projets
                 </Link>
             </div>
