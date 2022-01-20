@@ -144,6 +144,12 @@
             a {
                 color: $mainColor;
                 font-size: 1.3rem;
+                display: block;
+
+                &:hover {
+                    animation: heartBeat;
+                    animation-duration: 1s;
+                }
             }
         }
     }
