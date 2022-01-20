@@ -1,4 +1,5 @@
-import { useState } from "react"
+import { useState } from "react";
+import { Link } from "react-router-dom";
 
 import "./contact.scss"
 import "animate.css"
@@ -136,7 +137,6 @@ export default function Contact() {
                 />
                 <div className="form-message"></div>
             </form>
-            <a href="#home" className="arrow-down"> </a>
         </div>
     )
 }

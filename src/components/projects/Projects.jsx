@@ -65,6 +65,11 @@ export default function Projects() {
                     </div>
                 )})}
             </div>
+            <div className="bottom">
+                <Link className="link animate__animated animate__fadeIn" to={"../contact"} style={{animationDelay: "0.4s"}}>
+                    Me contacter
+                </Link>
+            </div>
         </div>
     )
 }
