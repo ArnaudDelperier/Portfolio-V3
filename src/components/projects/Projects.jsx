@@ -57,7 +57,9 @@ export default function Projects() {
                                         {card.description}
                                     </div>
                                     <div className="card__footer">
-                                        <a href={card.link} target="blank"> lien vers le site</a>
+                                        {card.link!=="none"
+                                            ?<a href={card.link} target="blank"> lien vers le site</a>
+                                            :null}                               
                                     </div>
                                 </div>
                             </div>
