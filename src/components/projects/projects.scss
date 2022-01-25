@@ -97,6 +97,8 @@
                 color: black;
                 background-color: $altColor;
                 transform: rotateY(180deg);
+                -webkit-backface-visibility: hidden;
+                backface-visibility: hidden;
             }
             
         }
