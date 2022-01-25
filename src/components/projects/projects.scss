@@ -68,6 +68,7 @@
     
 
                 &::before {
+                    backface-visibility: hidden;
                     content: "";
                     position: absolute;
                     display: block;
@@ -80,6 +81,7 @@
                 }
 
                 h2 {
+                    backface-visibility: hidden;
                     width: 70%;
                     font-size: 3rem;
                     text-align: center;
