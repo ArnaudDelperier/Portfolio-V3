@@ -58,8 +58,6 @@
                 color: #fff;
                 background: linear-gradient(142deg, rgba(0,0,0,1) 0%, rgba(38,153,171,1) 100%);
                 display: flex;
-                -webkit-backface-visibility: hidden;
-                backface-visibility: hidden;
                 align-items: center;
                 justify-content: center;
 
@@ -70,8 +68,6 @@
     
 
                 &::before {
-                    -webkit-backface-visibility: hidden;
-                    backface-visibility: hidden;
                     content: "";
                     position: absolute;
                     display: block;
@@ -99,8 +95,6 @@
                 color: black;
                 background-color: $altColor;
                 transform: rotateY(180deg);
-                -webkit-backface-visibility: hidden;
-                backface-visibility: hidden;
             }
             
         }
